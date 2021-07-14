@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7566" started-at="2021-07-09T11:11:00Z" finished-at="2021-07-09T11:11:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7566" started-at="2021-07-09T11:11:00Z" finished-at="2021-07-09T11:11:07Z">
+      <class name="training.GitHubSSHKey">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:training.GitHubSSHKey@2b98378d]" name="setUp" is-config="true" duration-ms="864" started-at="2021-07-09T11:11:00Z" finished-at="2021-07-09T11:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postSSH()[pri:1, instance:training.GitHubSSHKey@2b98378d]" name="postSSH" duration-ms="4789" started-at="2021-07-09T11:11:01Z" finished-at="2021-07-09T11:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSSH -->
+        <test-method status="PASS" signature="getSSHKey()[pri:2, instance:training.GitHubSSHKey@2b98378d]" name="getSSHKey" duration-ms="1015" started-at="2021-07-09T11:11:06Z" finished-at="2021-07-09T11:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSSHKey -->
+        <test-method status="PASS" signature="deleteSShKey()[pri:3, instance:training.GitHubSSHKey@2b98378d]" name="deleteSShKey" duration-ms="854" started-at="2021-07-09T11:11:07Z" finished-at="2021-07-09T11:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSShKey -->
+      </class> <!-- training.GitHubSSHKey -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
